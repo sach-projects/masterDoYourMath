@@ -11,50 +11,57 @@ h1{
 }
 nav{
   background-color: #29465b;
+  text-align: center;
+  margin:auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .box{
+  background-color: #E0F7FA;
   box-shadow: 0 10px 20px rgba(41, 70, 91,0.19), 0 6px 6px rgba(41, 70, 91,0.23);
-  background-color: #fff;
   font-size: 1.5em;
   width: 400px;
   height: 400px;
   margin:auto;
-  color: #29465b;
+  color:#29465b;
   text-align: center;
   font-family: monospace;
 }
 a:hover{
   background-color: #feecda;
-  border-color: #00000;
+  border-color: #000;
   color: #29465b;
 }
 
 .active{
   background-color: #fdd4aa;
-  border-color: #00000;
+  border-color: #000;
   color: #29465b;
   font-style: normal;
 }
 
 a{
   background-color: #2b3a57;
-  border-color: #000000;
+  border-color: #000;
   border-width: 3px;
+  border-style: solid;
   color: #ffffff;
   margin: 10px 50px 10px 50px;
-  border-style: solid;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   font-family: monospace;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   nav{
     display: block;
     float: none;
+    margin:auto;
+  }
+  a{
     margin:auto;
   }
 }
