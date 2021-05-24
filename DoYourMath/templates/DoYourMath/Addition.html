@@ -9,13 +9,13 @@
 </nav>
   <div class="box">
     <h2>Addition</h2>
-    <h3>{{number1}}</h3>
-    <h3>{{number2}}</h3>
+    <h3>{{numbers.n1}}</h3>
+    <h3>{{numbers.n2}}</h3>
     <form class="" action="DoYourMath:addition" method="post">
       {% csrf_token %}
       {{ form }}
       <input type="submit"><br><br>
     </form>
-    <h4>{{answer}}</h4>
+    <h4>{{numbers.ans}}</h4>
     </div>
 {% endblock %}
